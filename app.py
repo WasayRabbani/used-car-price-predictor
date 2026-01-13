@@ -7,7 +7,7 @@ import joblib
 pipe = joblib.load('car_price_prediction.pkl')
 
 st.set_page_config(page_title="Used Car Price Predictor", layout="wide")
-st.title("🚗 Used Car Price Predictor")
+st.title("Used Car Price Predictor")
 st.markdown("Enter car details to predict its price. The app shows an estimated price range based on model performance (MAPE ~22%).")
 
 # Create 2 columns for inputs
